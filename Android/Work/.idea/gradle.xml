@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/akuya_anim" />
+            <option value="$PROJECT_DIR$/akuya_listview" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/myqnmb" />
+            <option value="$PROJECT_DIR$/fateactivity" />
+            <option value="$PROJECT_DIR$/gunactivity" />
+            <option value="$PROJECT_DIR$/myalertdialog" />
+            <option value="$PROJECT_DIR$/mybutton" />
+            <option value="$PROJECT_DIR$/myconstraintlayout" />
+            <option value="$PROJECT_DIR$/mycontentprovider" />
+            <option value="$PROJECT_DIR$/mydear" />
+            <option value="$PROJECT_DIR$/myedittext" />
+            <option value="$PROJECT_DIR$/myhomepage" />
+            <option value="$PROJECT_DIR$/myimageview" />
+            <option value="$PROJECT_DIR$/mylinearlayout" />
+            <option value="$PROJECT_DIR$/mylitepal" />
+            <option value="$PROJECT_DIR$/mynotificaton" />
+            <option value="$PROJECT_DIR$/mypage" />
+            <option value="$PROJECT_DIR$/mypopupwindow" />
+            <option value="$PROJECT_DIR$/myprogressbar" />
+            <option value="$PROJECT_DIR$/myrecycleview" />
+            <option value="$PROJECT_DIR$/myrelativelayout" />
+            <option value="$PROJECT_DIR$/mytoolbar" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

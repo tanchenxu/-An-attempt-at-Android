@@ -1,0 +1,32 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "My Application"
+include ':app'
+include ':mybutton'
+include ':myedittext'
+include ':myimageview'
+include ':myprogressbar'
+include ':mynotificaton'
+include ':mytoolbar'
+include ':myalertdialog'
+include ':mypopupwindow'
+include ':mylinearlayout'
+include ':myrelativelayout'
+include ':myconstraintlayout'
+include ':akuya_listview'
+include ':myrecycleview'
+include ':akuya_anim'
+include ':mylitepal'
+include ':myhomepage'
+include ':mypage'
+include ':mydear'
+include ':app:myqnmb'
+include ':gunactivity'
+include ':mycontentprovider'
+include ':fateactivity'

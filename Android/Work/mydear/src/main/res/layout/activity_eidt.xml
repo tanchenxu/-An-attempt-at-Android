@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page.EidtActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:background="@drawable/userback2">
+
+            <Button
+                android:id="@+id/btn_return"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="更换头像"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"/>
+
+            <ImageView
+                android:id="@+id/iv_avater"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_below="@id/iv_avater"
+                android:layout_marginTop="5dp"
+                >
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="takePhoto"
+                    android:text="拍照"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="相册"
+                    android:onClick="choosePhoto"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_nick_name"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_nick_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵称"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_nick_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@id/tv_nick_name"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/tv_nick_name"
+                android:background="@drawable/edit_text_bg"
+                android:gravity="center"
+                android:text="Please input"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_Age"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="年龄"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/et_Age_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@id/tv_Age"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/tv_Age"
+                android:background="@drawable/edit_text_bg"
+                android:gravity="center"
+                android:text="Please input"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+             android:orientation="horizontal"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="性别"
+                android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="男"
+
+                        />
+
+                    <RadioButton
+                        android:id="@+id/rb_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="女"
+                        android:layout_marginLeft="20dp"
+                        />
+
+                </RadioGroup>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_city"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_cityt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="城市"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/sp_city"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_cityt"
+                android:entries="@array/cities"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_school"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学校"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/et_school_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/tv_school"
+                android:background="@drawable/edit_text_bg"
+                android:gravity="center"
+                android:text="Please input"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_goal"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_goal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人目标"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/et_goal_text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/tv_goal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:gravity="center"
+                android:text="Please input"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:background="@drawable/btn_bg_selector"
+            android:onClick="save"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

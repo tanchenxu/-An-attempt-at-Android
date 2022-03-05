@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80b65e07-fa6b-4daf-8958-313057657f67" name="Default Changelist" comment="修复App.java中扫描包路径错误的问题；&#10;兼容Mysql 6.0+版本">
+      <change afterPath="$PROJECT_DIR$/../app/src/main/assets/litepal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/litepal/LitePalActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/litepal/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/heuet/shaohua/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/heuet/shaohua/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/mysql/MySQLActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/mysql/MySQLActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/mysql/viewmodel/MysqlViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/mysql/viewmodel/MysqlViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/room/RoomActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/room/RoomActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/room/entity/StudentInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/room/entity/StudentInf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/sqlite/SQLiteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/cn/edu/heuet/demo/sqlite/SQLiteActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@RequestParam(name = &quot;</find>
+      <find>selectAll</find>
+      <find>httpServletRequest</find>
+      <find>telphone</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>private String</replace>
+      <replace>telephone</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\.m2\repository" />
+        <option name="mavenHome" value="F:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="F:\.m2\conf\settings-aliyun.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kJlXuUxpyuCvLsqdE96G69ZIA8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MyBatis LogindexNum" value="448" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="/user&#9;FILE&#9;file://D:/GitHub/Android/AndroidLoginDemo/LoginDemoComplex/LoginBackEnd/src/main/java/edu/heuet/android/logindemo/controller/UserController.java&#10;/login&#9;FILE&#9;file://D:/GitHub/Android/AndroidLoginDemo/LoginDemoComplex/LoginBackEnd" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559927665698" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3402299" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Workspaces\IDEA\LoginBackEnd" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="login-backend" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.heuet.shaohua.App" />
+      <module name="LoginBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.heuet.shaohua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LoginBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.heuet.shaohua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.heuet.android.shaohua" />
+      <option name="MAIN_CLASS_NAME" value="edu.heuet.android.shaohua.AppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="[mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.AppTest.test" />
+      <item itemvalue="Maven.[mybatis-generator:generate]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80b65e07-fa6b-4daf-8958-313057657f67" name="Default Changelist" comment="" />
+      <created>1559268233370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559268233370</updated>
+      <workItem from="1559268237093" duration="17317000" />
+      <workItem from="1559354228690" duration="13054000" />
+      <workItem from="1559394199706" duration="9027000" />
+      <workItem from="1559445804364" duration="4469000" />
+      <workItem from="1559468067786" duration="8950000" />
+      <workItem from="1559527448847" duration="10033000" />
+      <workItem from="1559572815076" duration="3139000" />
+      <workItem from="1559605574470" duration="3897000" />
+      <workItem from="1559619196991" duration="6681000" />
+      <workItem from="1559648569559" duration="5668000" />
+      <workItem from="1559655354184" duration="1500000" />
+      <workItem from="1559656912768" duration="748000" />
+      <workItem from="1559724054553" duration="3622000" />
+      <workItem from="1559730116721" duration="1772000" />
+      <workItem from="1559749533592" duration="4140000" />
+      <workItem from="1559781607326" duration="5372000" />
+      <workItem from="1559795804426" duration="4142000" />
+      <workItem from="1559816168333" duration="2126000" />
+      <workItem from="1559833190078" duration="3800000" />
+      <workItem from="1559876845908" duration="5437000" />
+    </task>
+    <task id="LOCAL-00001" summary="修复App.java中扫描包路径错误的问题；&#10;兼容Mysql 6.0+版本">
+      <created>1610522219264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610522219264</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修复App.java中扫描包路径错误的问题；&#10;兼容Mysql 6.0+版本">
+      <created>1610522271909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610522271909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="114894000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复App.java中扫描包路径错误的问题；&#10;兼容Mysql 6.0+版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复App.java中扫描包路径错误的问题；&#10;兼容Mysql 6.0+版本" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="87" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610179893706">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="184" y="87" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1458.864@0.0.1458.864" timestamp="1610179893706" />
+    <state width="1415" height="276" key="GridCell.Tab.0.bottom" timestamp="1611122949577">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.0.bottom/0.0.1458.864@0.0.1458.864" timestamp="1611122949577" />
+    <state width="1415" height="276" key="GridCell.Tab.0.center" timestamp="1611122949577">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.0.center/0.0.1458.864@0.0.1458.864" timestamp="1611122949577" />
+    <state width="1415" height="276" key="GridCell.Tab.0.left" timestamp="1611122949577">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.0.left/0.0.1458.864@0.0.1458.864" timestamp="1611122949577" />
+    <state width="1415" height="276" key="GridCell.Tab.0.right" timestamp="1611122949577">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.0.right/0.0.1458.864@0.0.1458.864" timestamp="1611122949577" />
+    <state width="1415" height="276" key="GridCell.Tab.1.bottom" timestamp="1611122949130">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.1.bottom/0.0.1458.864@0.0.1458.864" timestamp="1611122949130" />
+    <state width="1415" height="276" key="GridCell.Tab.1.center" timestamp="1611122949129">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.1.center/0.0.1458.864@0.0.1458.864" timestamp="1611122949129" />
+    <state width="1415" height="276" key="GridCell.Tab.1.left" timestamp="1611122949129">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.1.left/0.0.1458.864@0.0.1458.864" timestamp="1611122949129" />
+    <state width="1415" height="276" key="GridCell.Tab.1.right" timestamp="1611122949129">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state width="1415" height="276" key="GridCell.Tab.1.right/0.0.1458.864@0.0.1458.864" timestamp="1611122949129" />
+    <state x="451" y="174" width="540" height="524" key="StructurePopup" timestamp="1606372791915">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="451" y="174" width="540" height="524" key="StructurePopup/0.0.1458.864@0.0.1458.864" timestamp="1606372791915" />
+    <state x="322" y="165" key="Vcs.Push.Dialog.v2" timestamp="1610522230394">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="322" y="165" key="Vcs.Push.Dialog.v2/0.0.1458.864@0.0.1458.864" timestamp="1610522230394" />
+    <state x="306" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605455249662">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="306" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1458.864@0.0.1458.864" timestamp="1605455249662" />
+    <state x="93" y="93" width="1272" height="678" key="dock-window-1" timestamp="1611040949978">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="93" y="93" width="1272" height="678" key="dock-window-1/0.0.1458.864@0.0.1458.864" timestamp="1611040949978" />
+    <state x="392" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1610521536027">
+      <screen x="0" y="0" width="1458" height="864" />
+    </state>
+    <state x="392" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1458.864@0.0.1458.864" timestamp="1610521536027" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/heuet/shaohua/controller/UserController.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/heuet/shaohua/controller/StudentController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.5.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>login-backend</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3402299" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

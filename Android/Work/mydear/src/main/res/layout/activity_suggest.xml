@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/tb_min"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:background="@color/cardview_dark_background"
+    app:title="饮食规划"
+    app:titleMarginStart="115dp"
+    app:titleTextColor="@color/white"
+    app:navigationIcon="@drawable/ic_baseline_clear_24"
+    />
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Mode" ></dbname>
+
+    <version value="14" ></version>
+
+    <list>
+        <mapping class="com.akuya.mydear.bean.DailyBean"></mapping>
+        <mapping class="com.akuya.mydear.bean.ReduceFoodBean"></mapping>
+        <mapping class="com.akuya.mydear.bean.SuggestBean"></mapping>
+        <mapping class="com.akuya.mydear.bean.LoginUserBean"></mapping>
+        <mapping class="com.akuya.mydear.bean.FoodBean"></mapping>
+    </list>
+</litepal>
